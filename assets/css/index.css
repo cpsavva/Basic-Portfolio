@@ -1,6 +1,9 @@
 body {
-	background-image: url('./assets/images/upfeathers.png');
-	background-color: #dddddd;
+	background: url('./assets/images/upfeathers.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #ffffff;
 
 }
 
@@ -9,32 +12,37 @@ header {
 	background-color: #ffffff;
 	border-color: #666666;
 	font-family: 'Georgia', Times, "Times New Roman", serif;
-
+	margin: 40px;
 }
 
 section {
 
 }
 
-h1 {
+h3 {
 	font-family: 'Georgia', Times, "Times New Roman", serif;
-	
+	color: #4aaaa5;
 
 }
 
 #name {
-
-
+	float: left;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	width: 375px;
+	padding: 5px;
 }
 
 #site_links {
+	float: right;
 
 }
 
 .body {
-	clear:both;
-	overflow: auto;
-	border-color: #dddddd
+	clear: both;
+	border-color: #dddddd;
+	margin-left: 20px;
+	margin-right: 20px;
 	
 }
 p {
@@ -42,24 +50,30 @@ p {
 }
 
 #profile_pic {
+	float: left;
 	width: 200px;
 	height: 200px;
+	margin: 15px;
 }
 
-#bio {
+.bio {
 	border-color: #dddddd;
 	background-color: #ffffff;
-	width: ;
+	width: 400px;
+	height: 400px;
+
 
 }
 
-aside {
-	float: right;
+.connect {
+	float: left;
 	padding: 35px;
 	width: 200px;
-	height: 200px;
-
+	height: 125px;
+	background-color: #dddddd;
+	border-color: #ffffff;
 }
+
  #linkedin, #stackoverflow, #github {
  	width: 50px;
  	height: 50px;
