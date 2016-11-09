@@ -1,0 +1,44 @@
+#name {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px;
+	width: 30%;
+	text-align: center;
+	float: left;
+}
+
+#site_links {
+	float: right;
+	padding: 10px;
+}
+.container {
+	clear: both;
+}
+
+.bio {
+	width: 400px;
+	background-color: yellow;
+	overflow: auto;
+	padding: 50px;
+}
+
+.connect {
+	float: left;
+	width: 270px
+}
+
+#profile_pic {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-right: 20px;
+}
+
+p {
+	line-height: 2;
+}
+
+.social_media {
+	width: 25px;
+	height: 25px;
+}
