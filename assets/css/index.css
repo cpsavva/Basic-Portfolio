@@ -1,12 +1,11 @@
 body {
-	background-color: pink;
+	background-image: url("../images/upfeathers.png");
 	border: #dddddd;
 	color: #777777;
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans‐serif;
 }
 
 header {
-	background-color: #ffffff;
 	border-color: #black;
 	padding-top: 10px;
 	border: 40px;
