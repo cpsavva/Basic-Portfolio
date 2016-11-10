@@ -46,6 +46,11 @@ p {
 	width: 40px;
 	height: 40px;
 }
+.projects {
+	position: auto;
+	float: left;
+	z-index: 1;
+}
 
 .projects_img {
 	float: left;
