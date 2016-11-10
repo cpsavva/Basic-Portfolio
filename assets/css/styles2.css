@@ -12,22 +12,12 @@
 	padding: 10px;
 }
 
-.bio {
+.main_content {
 	float: left;
 	width: 400px;
-	background-color: yellow;
+	background-color: #ffffff;
 	overflow: auto;
 	padding: 50px;
-}
-
-.connect {
-	float: left;
-	width: 150px;
-	height: 100px;
-	background-color: yellow;
-	text-align: center;
-	padding: 20px 10px 10px 10px;
-	margin: 10px;
 }
 
 #profile_pic {
@@ -37,11 +27,29 @@
 	margin-right: 20px;
 }
 
+.connect {
+	float: right;
+	width: 160px;
+	height: 100px;
+	background-color: #ffffff;
+	text-align: center;
+	padding: 40px 35px 40px 35px;
+	margin: 10px 40px 10px 15px
+}
+
 p {
 	line-height: 2;
+	font-size: normal;
 }
 
 .social_media {
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
+}
+
+.projects {
+	float: left;
+    width: 170px;
+    height: 170px;
+    padding: 15px;
 }
