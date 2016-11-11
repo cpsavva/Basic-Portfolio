@@ -10,7 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="./assets/css/styles2.css"/>
 	</head>	
 	<body>
-		<header class="topbar">
+		<header>
 			<div class="title">
 				<h1>Catherine Soria-Savva</h1>
 			</div>
@@ -25,21 +25,26 @@
 			<!--not sure what to use here-->
 		<div class="container">
 			<section class="main_content">
-				<h2>Contact</h2>
+				<!--h2>Contact</h2>
 
-				<hr>
+				<hr-->
 
-				<p>Name</p>
-				
-				<!--shadow box-->
-				<p>Email</p>
-				<!--shadow box-->
-				<p>Message</p>
-				<!--shadow box-->
-
-				<section id="submit_button">
+				<form>
+					<fieldset>
+						<h2>Contact</h2>
+						<hr>
+						Name
+						<input type="text" name="field1" placeholder="John Smith">
+						Email
+						<input type="email" name="field2" placeholder="example@gmail.com">
+						Message
+						<textarea name="field3" placeholder=""></textarea>
+					</fieldset>
 					<h3 class="title">Submit</h3>
-				</section>
+				</form>					
+				<!--section id="submit_button">
+					<h3 class="title">Submit</h3>
+				</section-->
 			</section>
 			<section class="connect">
 				<h2><b>Connect with Me</b></h2>
